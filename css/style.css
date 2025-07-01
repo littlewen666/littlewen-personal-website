@@ -98,7 +98,7 @@ margin-right: 10px;
 .row {
   display: flex;
   align-items: stretch;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .contact-item {
   display: flex;
