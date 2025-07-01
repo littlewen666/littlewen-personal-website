@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊 | Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>註冊帳號</h2>
+
+        <div class="input-group">
+            <label for="username">使用者名稱</label>
+            <input type="text" id="username" placeholder="請輸入您的名稱">
+        </div>
+
+        <div class="input-group">
+            <label for="email">電子郵件</label>
+            <input type="email" id="email" placeholder="請輸入您的 Email">
+        </div>
+
+        <div class="input-group">
+            <label for="password">密碼</label>
+            <div class="password-wrapper">
+                <input type="password" id="password" placeholder="請輸入密碼">
+                <span id="togglePassword">👁</span>
+            </div>
+        </div>
+
+        <button onclick="register()">註冊</button>
+        <p id="message"></p>
+
+        <div class="other-options">
+            <p>已有帳號？<a href="login.html">立即登入</a></p>
+            <p>使用 Google 登入</p>
+            <button class="google-btn" onclick="googleLogin()">🔵 Google 註冊</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

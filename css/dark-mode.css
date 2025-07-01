@@ -1,0 +1,171 @@
+.dark-mode #intro {
+    background-color: #121212 !important;
+    background-image: none !important; /* 強制移除背景圖片 */
+}
+.dark-mode {
+    background-color: #121212 ;
+    color: #e0e0e0 ;
+}
+/* 預設模式 */
+.custom-color {
+    color: #000000 !important;
+}
+
+/* 黑暗模式變藍 */
+.dark-mode .custom-color {
+    color: #93ee9d !important;
+}
+
+/* 主要區塊 */
+.dark-mode main {
+    background-color: #121212  ;
+    background-image: none !important; /* 移除背景圖片 */
+}
+
+/* 卡片 */
+.dark-mode .card {
+    background-color: #2a2a2a;
+    color: #fff;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* 黑暗模式下的「打字效果」字體 */
+.dark-mode .typing {
+    color: #ffffff 
+}
+
+/* Logo 背景 */
+.dark-mode .logo {
+    background-color: #222 !important;
+}
+
+/* 黑暗模式按鈕 */
+.dark-mode-btn {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1001;
+}
+
+.dark-mode-btn:hover {
+    background-color: #666;
+}
+
+.dark-mode .dark-mode-btn {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* 聊天視窗 */
+.dark-mode #chatContainer {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #666;
+}
+
+.dark-mode #chatHeader {
+    background-color: #555;
+}
+
+.dark-mode #chatBody {
+    background-color: #444;
+}
+
+.dark-mode #chatInput {
+    background-color: #666;
+    color: white;
+}
+
+.dark-mode #sendButton {
+    background-color: #888;
+    color: black;
+}
+
+.dark-mode nav,
+.dark-mode .side-nav,
+.dark-mode .side-nav.fixed {
+    background-color: #1e1e1e !important;  /* 深灰色背景 */
+}
+
+/* 讓導覽列內的字體變為淺藍色 */
+.dark-mode nav a,
+.dark-mode .side-nav a {
+    color: #a6f9ec !important;
+}
+
+/* 讓 icon 變為淺藍色 */
+.dark-mode nav i,
+.dark-mode .side-nav i,
+.dark-mode .mdi-action-trending-up,
+.dark-mode .mdi-social-person,
+.dark-mode .mdi-av-my-library-books,
+.dark-mode .mdi-social-school,
+.dark-mode .mdi-content-mail,
+.dark-mode .mdi-file-folder-open,
+.dark-mode .material-icons-outlined {
+    color: #a6f9ec !important;
+}
+
+/* Materialize `.teal-text` 變為淺藍色 */
+.dark-mode .teal-text,
+.dark-mode .waves-effect.waves-dark.teal-text {
+    color: #a6f9ec !important;
+}
+
+
+/* 超連結變色 */
+.dark-mode a {
+    color: #a6f9ec !important;
+}
+
+/* 按鈕 */
+.dark-mode button,
+.dark-mode .btn,
+.dark-mode .floating-btn {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #ccc !important;
+}
+
+.dark-mode .icon-btn {
+    background-color: #332f2f !important;
+    color: #ffffff !important;
+    border: 1px solid #000000 !important;
+}
+
+.dark-mode .btn:hover,
+.dark-mode .floating-btn:hover {
+    background-color: #ddd !important;
+}
+
+/* 各個區塊的背景顏色 */
+.dark-mode #about,
+.dark-mode #experience,
+.dark-mode #projects,
+.dark-mode #life,
+.dark-mode #education,
+.dark-mode #contact {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Skills 清單 */
+.dark-mode #about .skills-list li {
+    color: #e0e0e0 !important;
+}
+/* 預設模式 */
+.custom-color {
+    color: #ff6600 !important;
+}
+
+/* 黑暗模式變藍 */
+.dark-mode .custom-color {
+    color: #00ccff !important;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "varadbhogayata.github.io",
+  "version": "1.0.0",
+  "description": "> A clean, beautiful, responsive portfolio template for Software Developers!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varadbhogayata/varadbhogayata.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varadbhogayata/varadbhogayata.github.io/issues"
+  },
+  "homepage": "https://github.com/varadbhogayata/varadbhogayata.github.io#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
