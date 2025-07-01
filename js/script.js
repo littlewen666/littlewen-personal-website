@@ -90,11 +90,12 @@ var typed = new Typed('.typing',{
     backSpeed: 40
     });
 
-
+/*
     window.onload = function() {
       checkLoginStatus();
   };
-  
+
+
   function checkLoginStatus() {
     const guestSession = localStorage.getItem("session_token");
     const username = localStorage.getItem("username");
@@ -142,3 +143,4 @@ var typed = new Typed('.typing',{
       checkLoginStatus();
   }
   
+*/

@@ -275,29 +275,6 @@ function updateLanguage(lang) {
     
 }
 
-function updatePlaceholders() {
-    console.log("Updating placeholders for language:", currentLang);
-
-    const placeholders = {
-        "#entername": "enterYourName",
-        "#enteremail": "enterYourEmail",
-        "#entersubject": "enterSubject",
-        "#entermessage": "enterMessage",
-        "#chatInput": "enterquestion",
-        "#login_email": "enterYourEmail",
-        "#login_password": "login_password",
-        "#reset_email": "enterYourEmail"
-    };
-
-    Object.keys(placeholders).forEach(selector => {
-        const element = document.querySelector(selector);
-        if (element) {
-            element.setAttribute("placeholder", translations[currentLang][placeholders[selector]]);
-        } else {
-            console.warn(`Element ${selector} not found`);
-        }
-    });
-}
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -310,10 +287,11 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Current language on load:", currentLang);
 
     updateLanguage(currentLang);
-    
+/* 
     setTimeout(() => {
         updatePlaceholders();
     }, 100);
+*/
 });
 
 
@@ -322,8 +300,8 @@ document.addEventListener("DOMContentLoaded", function () {
         currentLang = currentLang === "zh" ? "en" : "zh";
         localStorage.setItem("language", currentLang); // 更新 localStorage
         updateLanguage(currentLang);
-        updatePlaceholders();
-        checkLoginStatus(); 
+        //updatePlaceholders();
+        //checkLoginStatus(); 
     });
     
 });

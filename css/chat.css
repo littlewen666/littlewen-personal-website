@@ -91,6 +91,8 @@ background: #005b4f;
     flex-direction: column;
     gap: 15px;
     z-index: 9999;
+        transform: translateZ(0); /* 提升到自己的合成層，有助於獨立渲染 */
+    will-change: transform; /* 提示瀏覽器這個元素可能會變動 transform 屬性，進行優化 */
 }
 
 /* 個別按鈕樣式 */
