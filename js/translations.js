@@ -27,9 +27,11 @@ const translations = {
         "frameworks": "Frameworks: PyTorch, TensorFlow",
 
         "conference": "Conference<br>Presentation",
-        "confPaper": "Presented a paper 'Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging', exploring the application of weakly supervised learning techniques in colon diagnosis.",
+        "confPaper_Colon_Diagnosis": "Presented a paper 'Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging', exploring the application of weakly supervised learning techniques in colon diagnosis.",
         "journal": "Journal<br>Publication",
         "journalPaper": "Researched and authored 'Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model', focusing on multimodal information fusion in carbon emission assessment.",
+        "journalPaper_Paddy Field Weeds": "Presented a paper《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》",
+
         "assistant": "Research Assistant",
         "researchInstitute": "Institute for Information Industry",
         "assistantWork": "Responsible for analyzing model computational requirements (GFLOPS) and optimizing calculations.",
@@ -136,7 +138,7 @@ const translations = {
         "education": "就學",
         "contact": "聯絡我",
         "messageBoard": "留言板",
-        "diary": "日記",
+        "life": "生活aaa",
         "resume": "簡歷",
         "wenName": "溫政瑜",
         "personalWebsite": "個人網頁",
@@ -155,7 +157,8 @@ const translations = {
         "frameworks": "框架: PyTorch, TensorFlow",
 
         "conference": "研討會發表",
-        "confPaper": "發表論文《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，探討基於弱監督學習技術在結腸診斷上的應用。",
+        "confPaper_Colon_Diagnosis": "發表論文《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，探討基於弱監督學習技術在結腸診斷上的應用。",
+        "journalPaper_Paddy Field Weeds": "發表論文《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》",
         "journal": "期刊發表",
         "journalPaper": "研究並撰寫《Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model》，專注於多模態資訊融合深度神經網路在碳排放評估中的應用。",
         "assistant": "兼任助理",
