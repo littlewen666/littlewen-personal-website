@@ -300,9 +300,19 @@ document.addEventListener("DOMContentLoaded", function () {
         currentLang = currentLang === "zh" ? "en" : "zh";
         localStorage.setItem("language", currentLang); // 更新 localStorage
         updateLanguage(currentLang);
-        //updatePlaceholders();
-        //checkLoginStatus(); 
-    });
-    
-});
 
+        // --- 新增以下程式碼 ---
+        // 嘗試強制 Materialize 側邊導航刷新
+        // 舊版 Materialize 可能需要這樣做
+        // 首先檢查 sideNav 實例是否存在
+        const sideNavInstance = $('.button-collapse');
+        if (sideNavInstance.data('sidenav')) { // 檢查是否已初始化
+            sideNavInstance.sideNav('destroy'); // 銷毀舊實例
+        }
+        sideNavInstance.sideNav(); // 重新初始化
+        // --- 結束新增程式碼 ---
+
+        //updatePlaceholders(); // 根據您的註釋，這些應該保持註釋
+        //checkLoginStatus();
+    });
+});
