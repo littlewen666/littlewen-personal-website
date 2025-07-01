@@ -1,0 +1,115 @@
+#chatContainer {
+    position: fixed;
+    width: 400px;
+    height: 320px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    z-index: 999;
+    right: 9px;  
+    bottom: 9px; 
+    transform: translateY(-10%); 
+    z-index: 10000;
+}
+
+#chatHeader {
+    background: #00796b;
+    color: white;
+    padding: 10px;
+    display: flex; /* 讓關閉按鈕對齊 */
+    justify-content: space-between;
+    align-items: center;
+    cursor: move; /* 讓用戶知道可以拖動 */
+  }
+  
+  #chatHeader span {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  #chatHeader span:hover {
+    color: red;
+  }
+  
+  
+
+#chatBody {
+flex: 1;
+padding: 10px;
+overflow-y: auto;
+font-size: 14px;
+background: #f8f9fa;
+}
+
+
+#chatFooter {
+display: flex;
+padding: 10px;
+border-top: 1px solid #ddd;
+background: white;
+}
+
+#chatInput {
+flex: 1;
+padding: 5px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 12px;
+}
+
+#sendButton_AI {
+    padding: 2px 5px;  /* 控制內邊距，讓按鈕變小 */
+    font-size: 12px;  /* 減小字體 */
+    background: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; /* 讓按鈕邊角小一點 */
+    width: auto; /* 讓寬度根據內容調整 */
+    height: auto; /* 讓高度根據內容調整 */
+    line-height: normal; /* 避免文字被放大 */
+  }
+  
+
+#sendButton_AI:hover {
+background: #005b4f;
+}
+
+
+/* 右側固定按鈕區 */
+#floatingButtons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 9999;
+}
+
+/* 個別按鈕樣式 */
+.floating-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.floating-btn:hover {
+    background: rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+}
