@@ -61,6 +61,11 @@
   <meta name="theme-color" content="#00796b" />
   <meta name="robots" content="index, follow" />
   <meta name="google-site-verification" content="SWywuwm1XW6yCgKOHymfTe71vMF9m8CVNP0OAbAur6A" />
+
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+     
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+</script>
 </head>
 
 <body>
@@ -525,9 +530,81 @@
       </div>
     </section>
     <!-- Eight Section: Contact -->
-    <section id="life" class="section">
-      <h3 class="page-title white-text teal" data-i18n="life">生活</h3>
-    </section>
+
+<section id="life" class="section scrollspy">
+  <h3 class="page-title white-text teal" data-i18n="life">生活</h3>
+  <div class="container fade-in">
+    <div class="row">
+
+      <div class="col s12 m6 l6">
+        <div class="card fade-in">
+          <div class="card-content">
+            <h4 class="teal-text" data-i18n="hobbiesAndExpertise">興趣與專長</h4>
+            
+            <h5 data-i18n="personalHobbies">個人興趣</h5>
+            <ol>
+              <li data-i18n="hobby_gaming_intro">玩遊戲，以手遊為主，以下是有認真在玩的遊戲:</li>
+              <ul>
+                <li><a href="https://moba.garena.tw/" target="_blank" class="teal-text hoverline" data-i18n="aov">傳說對決Arena of Valor(戰場傳說 | S)</a></li>
+                <li><a href="https://wildrift.leagueoflegends.com/zh-tw/" target="_blank" class="teal-text hoverline" data-i18n="wildrift">激鬥峽谷League of Legends: Wild Rift(大師III | Master III)</a></li>
+                <li><a href="https://kartrush.nexon.com/tw-launching" target="_blank" class="teal-text hoverline" data-i18n="kartrider">跑跑卡丁車KartRider Rush+(王者車手III | Genius III)</a></li>
+                <li data-i18n="gta5">最近在玩<a href="https://www.rockstargames.com/tw/gta-v" target="_blank" class="teal-text hoverline">最近在玩Grand Theft Auto V (GTA V)</a>的故事模式(Story Mode)</li>
+              </ul>
+              <li data-i18n="hobby_netflix_intro">看<a href="https://www.netflix.com/browse" target="_blank" class="teal-text hoverline">Netflix</a>，以下是我喜歡的:</li>
+              <ul>
+                <li data-i18n="hobby_netflix_anime">動漫 : 葬送的芙利蓮，紫羅蘭的永恆花園，奇諾之旅</li>
+                <li data-i18n="hobby_netflix_koreandrama">韓劇 : 信號，愛在大都會，屍戰朝鮮</li>
+                <li data-i18n="hobby_netflix_currently_watching">最近在考慮要不要看苦盡甘來</li>
+              </ul>
+              <li data-i18n="hobby_youtube">到YouTube到處看看</li>
+            </ol>
+            
+            <h5 data-i18n="personalExpertise">個人專長</h5>
+            <p data-i18n="expertise_AI">本科，目前專研AI與機器學習相關。</p>
+            <p data-i18n="expertise_social_sciences">另外我高中是文組的，所以社會科也蠻擅長的。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l6">
+        <div class="card fade-in">
+          <div class="card-content">
+            <h4 class="teal-text" data-i18n="favoriteCountries">喜歡的國家</h4>
+            <p data-i18n="favoriteCountries_text_intro">只去過中國、韓國跟越南，其中中國去了不少次，個人大推成都跟上海，尤其是上海生煎包很好吃。</p>
+            
+            <p class="brown-text" data-i18n="visitedCitiesMapLabel" style="margin-top: 15px; text-align: center;">點擊地圖上的標記查看城市</p>
+            <div id="visitedMap" style="height: 350px; width: 100%; border-radius: 8px; margin-top: 20px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l6">
+        <div class="card fade-in">
+          <div class="card-content">
+            <h4 class="teal-text" data-i18n="recentTroubles">自己最近的困擾</h4>
+            <p data-i18n="recentTroubles_text">要上資工研究所有點焦慮。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l6">
+        <div class="card fade-in">
+          <div class="card-content">
+            <h4 class="teal-text" data-i18n="exchangeSkills">可以交換學習的才藝</h4>
+            <p data-i18n="exchangeSkills_none">沒有內容。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l6">
+        <div class="card fade-in">
+          <div class="card-content">
+            <h4 class="teal-text" data-i18n="thingsToTry">想嘗試的事情</h4>
+            <p data-i18n="thingsToTry_japanese">最近想學日語，但我0基礎，正在研究中。</p>
+          </div>
+        </div>
+      </div>
+
+    </div> </div> </section>
     <!-- 
     <section id="note" class="section scrollspy full-height">
       <h3 class="page-title white-text teal" data-i18n="messageBoard">留言板</h3>
@@ -590,6 +667,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
 
   <script src="/js/script.js" defer></script>
+    <script src="/js/map.js" defer></script>
   <!--<script src="/js/mail.js" defer></script>-->
   <script src="/js/particles.js" defer></script>
   <script src="/js/dark_mode.js" defer></script>

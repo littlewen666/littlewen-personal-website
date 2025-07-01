@@ -79,6 +79,98 @@ const translations = {
 
         "life": "Life",
 
+
+        "hobbiesAndExpertise": "Hobbies & Expertise",
+        "personalHobbies": "Personal Hobbies",
+        "hobby_gaming": "Gaming, primarily mobile games. My main games are:",
+        "hobby_netflix": "Watching Netflix, my favorites include:",
+        "hobby_netflix_anime": "Anime: Frieren: Beyond Journey's End, Violet Evergarden, Kino's Journey",
+        "hobby_netflix_koreandrama": "Korean Dramas: Signal, Lovestruck in the City, Kingdom",
+        "hobby_netflix_currently_watching": "Currently considering watching 'Welcome to Samdal-ri'",
+        "hobby_youtube": "Browse YouTube randomly",
+        "personalExpertise": "Personal Expertise",
+        "expertise_AI": "My major, currently specializing in AI and Machine Learning.",
+        "expertise_social_sciences": "I was in the liberal arts in high school, so I'm also quite good at social sciences.",
+        "clubsAttended": "Clubs Attended",
+        "clubsAttended_none": "No content.",
+        "favoriteCourses": "Favorite Courses",
+        "favoriteCourses_none": "No content.",
+        "favoriteCountries": "Favorite Countries",
+                "favoriteCountries_text_intro": "Only visited China, South Korea, and Vietnam. I highly recommend Chengdu and Shanghai in China, especially Shanghai's shengjianbao which are delicious.", // 更新此翻譯鍵
+        "visitedCitiesMapLabel": "Click on markers to see city names", // 新增
+        "chengdu": "Chengdu", // 新增
+        "shanghai": "Shanghai", // 新增
+        "guangzhou": "Guangzhou", // 新增
+        "chongqing": "Chongqing", // 新增
+        "da nang": "Da Nang", // 新增
+        "seoul": "Seoul", // 新增
+                "noDetailsAvailable": "No details available for this city.", // 新增
+        "attractions": "Attractions/Memorable Moments:", // 新增
+
+        // ====== 城市詳細資訊翻譯 (新增) ======
+        "chengduDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/chengdu_example1.jpg", alt: "Chengdu street" },
+                
+            ],
+            "points": [
+
+            ]
+        },
+        "shanghaiDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/shanghai_disney.jpg", alt: "Shanghai Disneyland" },
+                { src: "/assets/img/visited_places/shanghai_bund.jpg", alt: "The Bund, Shanghai" },
+                { src: "/assets/img/visited_places/wuzhen.jpg", alt: "Wuzhen Water Town" },
+                { src: "/assets/img/visited_places/shanghai_zhuzhengyuan.jpg", alt: "Humble Administrator's Garden" } // 拙政園實際在蘇州，但如果您記憶深刻可列出
+            ],
+            "points": [
+                "Shanghai Disneyland",
+                "The Bund",
+                "Wuzhen Water Town",
+                "Humble Administrator's Garden"
+            ]
+        },
+        "guangzhouDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/guangzhou_example1.jpg", alt: "Guangzhou Tower" }
+            ],
+            "points": [
+
+            ]
+        },
+        "chongqingDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/chongqing_example1.jpg", alt: "Chongqing cityscape" }
+            ],
+            "points": [
+ 
+            ]
+        },
+        "danangDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/danang_example1.jpg", alt: "Da Nang beach" }
+            ],
+            "points": [
+
+            ]
+        },
+        "seoulDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/seoul_example1.jpg", alt: "Gyeongbokgung Palace" }
+            ],
+            "points": [
+
+            ]
+        },
+        "recentTroubles": "Recent Troubles",
+        "recentTroubles_text": "Feeling a bit anxious about starting graduate school for Computer Science.",
+        "exchangeSkills": "Talents for Exchange Learning",
+        "exchangeSkills_none": "No content.",
+        "thingsToTry": "Things to Try",
+        "thingsToTry_japanese": "Recently want to learn Japanese, but I have zero foundation, currently researching.",
+
+
         "forgotPasswordTitle": "Forgot Password | Wen Cheng-Yu's Personal Website",
         "forgotPassword": "Forgot Password",
         "Email": "Email",
@@ -123,6 +215,9 @@ const translations = {
         
         "enterNewName": "Enter new name",
         "enterNewEmail": "Enter new email",
+
+
+
 
 
 
@@ -211,6 +306,103 @@ const translations = {
 
         "life": "生活",
 
+        "hobbiesAndExpertise": "興趣與專長",
+        "personalHobbies": "個人興趣",
+        "hobby_gaming": "玩遊戲，以手遊為主，以下是有認真在玩的遊戲:",
+        "hobby_netflix": "看Netflix，以下是我喜歡的:",
+        "hobby_netflix_anime": "動漫 : 葬送的芙利蓮，紫羅蘭的永恆花園，奇諾之旅",
+        "hobby_netflix_koreandrama": "韓劇 : 信號，愛在大都會，屍戰朝鮮",
+        "hobby_netflix_currently_watching": "最近在考慮要不要看苦盡甘來",
+        "hobby_youtube": "到YouTube到處看看",
+        "personalExpertise": "個人專長",
+        "expertise_AI": "本科，目前專研AI與機器學習相關。",
+        "expertise_social_sciences": "另外我高中是文組的，所以社會科也蠻擅長的。",
+        "clubsAttended": "曾參加過的社團",
+        "clubsAttended_none": "沒有內容。",
+        "favoriteCourses": "喜歡的課程",
+        "favoriteCourses_none": "沒有內容。",
+        "favoriteCountries": "喜歡的國家",
+
+        "favoriteCountries_text_intro": "只去過中國、韓國跟越南，其中中國去了不少次，個人大推成都跟上海，尤其是上海生煎包很好吃。", // 更新此翻譯鍵
+        "visitedCitiesMapLabel": "點擊地圖上的標記查看城市名稱", // 新增
+        "chengdu": "成都", // 新增
+        "shanghai": "上海", // 新增
+        "guangzhou": "廣州", // 新增
+        "chongqing": "重慶", // 新增
+        "da nang": "峴港", // 新增
+        "seoul": "首爾", // 新增
+                "noDetailsAvailable": "此城市無詳細資訊。",
+        "attractions": "景點/難忘回憶:",
+
+        // ====== 城市詳細資訊翻譯 (新增) ======
+        "chengduDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/chengdu_example1.jpg", alt: "樂山大佛" }
+            ],
+            "points": [
+                
+                "都江堰",
+                "樂山大佛",
+                "大熊貓繁育研究基地",
+                "峨眉山"
+            ]
+        },
+        "shanghaiDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/wuzhen.jpg", alt: "烏鎮水鄉" }
+            ],
+            "points": [
+                "上海迪士尼",
+                "上海外灘",
+                "烏鎮水鄉",
+                "拙政園"
+            ]
+        },
+        "guangzhouDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/guangzhou_example1.jpg", alt: "福建土樓" }
+            ],
+            "points": [
+                "福建土樓"
+            ]
+        },
+        "chongqingDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/chongqing_example1.jpg", alt: "重慶夜景" }
+            ],
+            "points": [
+                "黃鶴樓",
+                "武當山",
+                "長江夜游"
+            ]
+        },
+        "danangDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/danang_example1.jpg", alt: "峴港海灘" }
+            ],
+            "points": [
+                "會安古鎮",
+                "五行山",
+                "巴拿山"
+            ]
+        },
+        "seoulDetails": {
+            "images": [
+                { src: "/assets/img/visited_places/seoul_example1.jpg", alt: "滑雪" }
+            ],
+            "points": [
+                "愛寶樂園",
+                "明洞購物街",
+                "滑雪",
+            ]
+        },
+        "recentTroubles": "自己最近的困擾",
+        "recentTroubles_text": "要上資工研究所有點焦慮。",
+        "exchangeSkills": "可以交換學習的才藝",
+        "exchangeSkills_none": "沒有內容。",
+        "thingsToTry": "想嘗試的事情",
+        "thingsToTry_japanese": "最近想學日語，但我0基礎，正在研究中。",
+
         "forgotPasswordTitle": "忘記密碼 | 溫政瑜的個人網頁",
         "forgotPassword": "忘記密碼",
         "sendResetEmail": "發送重設密碼郵件",
@@ -253,6 +445,8 @@ const translations = {
 
         "enterNewPassword": "請輸入新密碼",
         "confirmNewPassword": "請確認新密碼"
+
+
 
 
 
