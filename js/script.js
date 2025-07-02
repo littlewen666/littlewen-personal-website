@@ -75,6 +75,10 @@ function handleScrollAnimations() {
 // Materialize - Initializers
 $(document).ready(function () {
     $(".scrollspy").scrollSpy()
+     $('#expandExperience').on('click', function() {
+   $('.collapsible li.hidden').removeClass('hidden').addClass('animated fadeIn');
+   $(this).hide(); // 點擊後隱藏按鈕
+ });
     // Initialize collapse button
     $(".button-collapse").sideNav({
         menuWidth: 190, // Default is 240

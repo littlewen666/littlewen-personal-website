@@ -26,10 +26,12 @@ const translations = {
         "libraries": "Libraries: NumPy, OpenCV",
         "frameworks": "Frameworks: PyTorch, TensorFlow",
 
+
+
         "conference": "Conference<br>Presentation",
-        "confPaper_Colon_Diagnosis": "Presented a paper 'Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging', exploring the application of weakly supervised learning techniques in colon diagnosis.",
+        "confPaper_Colon_Diagnosis": "Presented a paper 'Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging', exploring the application of weakly supervised learning techniques in colon diagnosis.(First Author)",
         "journal": "Journal<br>Publication",
-        "journalPaper": "Researched and authored 'Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model', focusing on multimodal information fusion in carbon emission assessment.",
+        "journalPaper": "Researched and authored 'Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model', focusing on multimodal information fusion in carbon emission assessment.(First Author)",
         "journalPaper_Paddy Field Weeds": "Presented a paper《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》",
 
         "assistant": "Research Assistant",
@@ -41,7 +43,94 @@ const translations = {
         "cpeResult": "Participated in CPE and achieved a score of 3 problems solved (524/2811), ranking in the top 18.6% nationwide.",
         "itsa": "ITSA Online Programming Test",
         "itsaExam": "Programming Exam",
+        "itsaResult": "Completed 6/7 problems in the ITSA online programming assessment",
+
+                // === 經歷項目標題與詳情 ===
+        // Journal of Information and Computing - Paddy Weeds (原 journalPaper_Paddy)
+        "journalPaper_Paddy_title": "Journal of Information and Computing: Deep Learning for Paddy Field Weeds", // 新增 collapsbile header title
+        "journalPaper_Paddy_short": "Deep Learning for Paddy Field Weeds", // 新增 collapsbile header short text
+        "journalPaper_Paddy_full_title": "Journal of Information and Computing: Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture", // 新增 full title for collapsible body
+        "journalPaper_Paddy_detail1": "Presented a paper《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》(First Author)",
+        "journalPaper_Paddy_detail2": "Explored various deep learning models for accurate weed detection in smart agriculture.",
+        "journalPaper_Paddy_detail3": "Analyzed multi-model performance and provided insights for practical applications in smart agriculture.",
+
+
+        // 2024 Taiwan Symposium on Cloud and Services Computing (原 confPaper_Colon_Diagnosis)
+        "confPaper_Colon_Diagnosis_title": "2024 Taiwan Symposium on Cloud and Services Computing: Colon Diagnosis",
+        "confPaper_Colon_Diagnosis_short": "Colon Diagnosis with Weakly Supervised Learning",
+        "confPaper_Colon_Diagnosis_full_title": "2024 Taiwan Symposium on Cloud and Services Computing: Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging",
+        "confPaper_Colon_Diagnosis_detail1": "Published a paper《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，discussing weakly supervised learning techniques for colon diagnosis.",
+        "confPaper_Colon_Diagnosis_detail2": "Contributed as the first author to this conference publication.", // 根據您的要求，假設是 First Author
+
+
+        // The 23rd Conference on Information Technology and Application (原 confPaper_Image_Processing)
+        "confPaper_Image_Processing_title": "23rd Conference on IT & Application: Steel Defect Detection",
+        "confPaper_Image_Processing_short": "Image Processing for Steel Defect Detection",
+        "confPaper_Image_Processing_full_title": "The 23rd Conference on Information Technology and Application: Image Processing for Steel Defect Detection in Smart Manufacturing",
+        "confPaper_Image_Processing_detail1": "Presented a paper《影像處理應用於智慧製造中的鋼材缺陷檢測》(Second Author)", // 根據您的要求，假設是 Second Author
+
+        // Journal of Information and Computing - Breast Cancer Diagnosis (新增)
+        "journalPaper_Breast_Diagnosis_title": "Journal of Information and Computing: Breast Cancer Diagnosis",
+        "journalPaper_Breast_Diagnosis_short": "Transparent Breast Cancer Diagnosis with XAI",
+        "journalPaper_Breast_Diagnosis_full_title": "Journal of Information and Computing: Transparent Breast Cancer Diagnosis through Causality, Explainability, and Visualization",
+        "journalPaper_Breast_Diagnosis_detail1": "Presented a paper《Transparent Breast Cancer Diagnosis through Causality, Explainability, and Visualization》(Second Author)", // 根據您的要求，假設是 Second Author
+        "journalPaper_Breast_Diagnosis_detail2": "Focused on enhancing diagnostic transparency using XAI and causal inference.",
+
+
+        // 資策會 (III)
+        "researchInstitute_title": "Institute for Information Industry (III)",
+        "researchInstitute_short": "Research Assistant at III",
+        "researchInstitute_full_title": "Institute for Information Industry (III)",
+        "assistant": "Research Assistant",
+        "assistantWork": "Responsible for analyzing model computational requirements (GFLOPS) research report, assisting in evaluation and optimization of computational needs.",
+
+        // 大學程式能力檢定(CPE)
+        "cpe_title": "Collegiate Programming Examination (CPE)",
+        "cpe_short": "CPE Programming Exam",
+        "cpe_full_title": "Collegiate Programming Examination (CPE)",
+        "cpeExam": "Programming Exam",
+        "cpeResult": "Participated in CPE and achieved a score of 3 problems solved (524/2811), ranking in the top 18.6% nationwide.",
+
+        // ITSA 程式能力線上自我評量
+        "itsa_title": "ITSA Online Programming Test",
+        "itsa_short": "ITSA Programming Test",
+        "itsa_full_title": "ITSA Online Programming Test",
+        "itsaExam": "Programming Exam",
         "itsaResult": "Completed 6/7 problems in the ITSA online programming assessment, demonstrating efficient problem-solving skills.",
+
+        "expandMore": "Expand More",
+
+        "project_colon_diagnosis_title": "Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging",
+        "project_colon_diagnosis_desc": "Leveraging weak supervision for efficient colon cancer diagnosis from large pathological images.",
+        "project_colon_diagnosis_detail1": "Developed Multiple Instance Learning (MIL) based models for whole-slide image analysis.",
+        "project_colon_diagnosis_detail2": "Addressed challenges of large image data and limited pixel-level annotations.",
+        "project_colon_diagnosis_detail3": "Achieved high diagnostic accuracy with only slide-level labels, reducing annotation burden.",
+
+        "project_breast_cancer_quantification_title": "Unsupervised Quantification of Tumor and Stromal Ratios in Breast Cancer WSI",
+        "project_breast_cancer_quantification_desc": "Utilizing unsupervised learning to quantify tumor and stromal ratios in breast cancer whole-slide images.",
+        "project_breast_cancer_quantification_detail1": "Applied unsupervised clustering and segmentation techniques to pathological images.",
+        "project_breast_cancer_quantification_detail2": "Provided automated quantification of tumor and stromal tissue components.",
+        "project_breast_cancer_quantification_detail3": "Aided in pathological assessment and research without requiring manual annotations.",
+
+        "project_paddy_weed_segmentation_title": "Deep Learning-Based Semantic Segmentation of Paddy Field Weeds",
+        "project_paddy_weed_segmentation_desc": "Semantic segmentation of paddy field weeds using deep learning for smart agriculture.",
+        "project_paddy_weed_segmentation_detail1": "Compared various deep learning models (e.g., U-Net, DeepLab) for weed detection.",
+        "project_paddy_weed_segmentation_detail2": "Evaluated model performance on diverse paddy field datasets.",
+        "project_paddy_weed_segmentation_detail3": "Explored applications for automated weeding and crop management in smart farming.",
+
+        "project_transparent_breast_diagnosis_title": "Transparent Breast Cancer Diagnosis through Causality, Explainability, and Visualization",
+        "project_transparent_breast_diagnosis_desc": "Enhancing breast cancer diagnosis with explainable AI (XAI) and causal inference for transparency.",
+        "project_transparent_breast_diagnosis_detail1": "Integrated Explainable AI (XAI) techniques (e.g., Grad-CAM, LIME) to understand model decisions.",
+        "project_transparent_breast_diagnosis_detail2": "Explored causal relationships between pathological features and diagnostic outcomes.",
+        "project_transparent_breast_diagnosis_detail3": "Provided visual interpretations and causal insights for clinical decision-making.",
+
+        "project_steel_defect_detection_title": "Image Processing for Steel Defect Detection in Smart Manufacturing",
+        "project_steel_defect_detection_desc": "Applying image processing techniques for steel defect detection in smart manufacturing.",
+        "project_steel_defect_detection_detail1": "Developed robust image processing pipelines for surface defect identification.",
+        "project_steel_defect_detection_detail2": "Implemented anomaly detection algorithms for automated quality control.",
+        "project_steel_defect_detection_detail3": "Enhanced efficiency and accuracy of quality inspection in industrial settings.",
+        
+        "accomplishments": "Accomplishments", 
 
         "educationHistory": "Education History",
         "nttu": "National Taitung University",
@@ -53,7 +142,7 @@ const translations = {
 
         "ncu": "National Central University",
         "ncuLocation": "Taoyuan, Taiwan",
-        "ncuDegree": "Accepted into AI Master's Program in Computer Science",
+        "ncuDegree": "Accepted into  Master's Program in Computer Science",
         "ncuPlan": "Planned Enrollment",
 
         "contactMe": "Contact Me",
@@ -82,7 +171,13 @@ const translations = {
 
         "hobbiesAndExpertise": "Hobbies & Expertise",
         "personalHobbies": "Personal Hobbies",
-        "hobby_gaming": "Gaming, primarily mobile games. My main games are:",
+
+        "hobby_gaming_intro": "Gaming, primarily mobile games. Here are the games I actively play:", // 新增
+        "aov": "Arena of Valor (Battlefield Legend)", 
+        "wildrift": "League of Legends: Wild Rift (Master 3)", 
+        "kartrider": "KartRider Rush+ (King Racer 3)", // 新增
+        "gta5": "Recently playing Grand Theft Auto V (GTA V) Story Mode", // 新增
+        "hobby_netflix_intro": "Watching Netflix, my favorites include:", // 新增
         "hobby_netflix": "Watching Netflix, my favorites include:",
         "hobby_netflix_anime": "Anime: Frieren: Beyond Journey's End, Violet Evergarden, Kino's Journey",
         "hobby_netflix_koreandrama": "Korean Dramas: Signal, Lovestruck in the City, Kingdom",
@@ -107,7 +202,6 @@ const translations = {
                 "noDetailsAvailable": "No details available for this city.", // 新增
         "attractions": "Attractions/Memorable Moments:", // 新增
 
-        // ====== 城市詳細資訊翻譯 (新增) ======
         "chengduDetails": {
             "images": [
                 { src: "/assets/img/visited_places/chengdu_example1.jpg", alt: "Chengdu street" },
@@ -122,7 +216,7 @@ const translations = {
                 { src: "/assets/img/visited_places/shanghai_disney.jpg", alt: "Shanghai Disneyland" },
                 { src: "/assets/img/visited_places/shanghai_bund.jpg", alt: "The Bund, Shanghai" },
                 { src: "/assets/img/visited_places/wuzhen.jpg", alt: "Wuzhen Water Town" },
-                { src: "/assets/img/visited_places/shanghai_zhuzhengyuan.jpg", alt: "Humble Administrator's Garden" } // 拙政園實際在蘇州，但如果您記憶深刻可列出
+                { src: "/assets/img/visited_places/shanghai_zhuzhengyuan.jpg", alt: "Humble Administrator's Garden" } 
             ],
             "points": [
                 "Shanghai Disneyland",
@@ -243,7 +337,7 @@ const translations = {
         "send": "發送",
 
         "aboutText1": "我是 <b>一位資訊工程準研究生</b>，熱衷於解決問題與開發應用。",
-        "aboutText2": "具備 <b>Python、C++</b> 等語言技術。對於 <b>機器學習</b> 與 <b>電腦圖像</b> 充滿熱情。",
+        "aboutText2": "具備 <b>Python、C++</b> 等語言技術。主要研究 <b>機器學習</b> 與 <b>電腦圖像</b>。",
 
         "skills": "技能",
         "language": "語言: Python, C, C++, HTML/CSS",
@@ -252,10 +346,10 @@ const translations = {
         "frameworks": "框架: PyTorch, TensorFlow",
 
         "conference": "研討會發表",
-        "confPaper_Colon_Diagnosis": "發表論文《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，探討基於弱監督學習技術在結腸診斷上的應用。",
+        "confPaper_Colon_Diagnosis": "發表論文《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，探討基於弱監督學習技術在結腸診斷上的應用。(First Author)",
         "journalPaper_Paddy Field Weeds": "發表論文《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》",
         "journal": "期刊發表",
-        "journalPaper": "研究並撰寫《Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model》，專注於多模態資訊融合深度神經網路在碳排放評估中的應用。",
+        "journalPaper": "研究並撰寫《Multimodal Information Fusion Deep Neural Network for Large Venue Carbon Emission Assessment Model》，專注於多模態資訊融合深度神經網路在碳排放評估中的應用。(First Author)",
         "assistant": "兼任助理",
         "researchInstitute": "資策會",
         "assistantWork": "負責偵測模型運算需量 (GFLOPS) 研究分析報告，協助評估與最佳化計算需求。",
@@ -265,7 +359,98 @@ const translations = {
         "cpeResult": "參與CPE並獲得三題成績(524/2811)全國前18.6%。",
         "itsa": "ITSA 程式能力線上自我評量",
         "itsaExam": "程式能力測驗",
+        "itsaResult": "在 ITSA 程式能力線上評測中完成 6/7 題",
+
+        // === 經歷項目標題與詳情 ===
+        // Journal of Information and Computing - Paddy Weeds
+        "journalPaper_Paddy_title": "資訊與計算期刊: 水稻田雜草深度學習分割",
+        "journalPaper_Paddy_short": "水稻田雜草深度學習分割",
+        "journalPaper_Paddy_full_title": "資訊與計算期刊：基於深度學習的水稻田雜草語義分割：多模型性能比較與智慧農業展望",
+        "journalPaper_Paddy_detail1": "發表論文《Deep Learning-Based Semantic Segmentation of Paddy Field Weeds: A Comparative Study of Multi-Model Performance and Perspectives for Smart Agriculture》(第一作者)",
+        "journalPaper_Paddy_detail2": "探討多種深度學習模型在智慧農業雜草檢測中的應用。",
+        "journalPaper_Paddy_detail3": "分析多模型性能並為智慧農業的實際應用提供見解。",
+
+
+        // 2024 Taiwan Symposium on Cloud and Services Computing
+        "confPaper_Colon_Diagnosis_title": "2024 臺灣雲端與服務運算研討會: 結腸診斷",
+        "confPaper_Colon_Diagnosis_short": "弱監督學習結腸診斷",
+        "confPaper_Colon_Diagnosis_full_title": "2024 臺灣雲端與服務運算研討會：基於弱監督學習的結腸診斷於全玻片影像",
+        "confPaper_Colon_Diagnosis_detail1": "發表論文《Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging》，探討基於弱監督學習技術在結腸診斷上的應用。(第一作者)",
+        "confPaper_Colon_Diagnosis_detail2": "作為第一作者參與此研討會發表。",
+
+
+        // The 23rd Conference on Information Technology and Application
+        "confPaper_Image_Processing_title": "第23屆資訊科技與應用研討會: 鋼材缺陷檢測",
+        "confPaper_Image_Processing_short": "影像處理鋼材缺陷檢測",
+        "confPaper_Image_Processing_full_title": "第23屆資訊科技與應用研討會：影像處理應用於智慧製造中的鋼材缺陷檢測",
+        "confPaper_Image_Processing_detail1": "發表論文《影像處理應用於智慧製造中的鋼材缺陷檢測》(第二作者)",
+
+        // Journal of Information and Computing - Breast Cancer Diagnosis
+        "journalPaper_Breast_Diagnosis_title": "資訊與計算期刊: 乳癌透明化診斷",
+        "journalPaper_Breast_Diagnosis_short": "可解釋性 AI 乳癌診斷",
+        "journalPaper_Breast_Diagnosis_full_title": "資訊與計算期刊：基於因果關係、可解釋性與視覺化的透明化乳癌診斷",
+        "journalPaper_Breast_Diagnosis_detail1": "發表論文《Transparent Breast Cancer Diagnosis through Causality, Explainability, and Visualization》(第二作者)",
+        "journalPaper_Breast_Diagnosis_detail2": "側重於透過可解釋性人工智慧和因果推斷提升診斷透明度。",
+
+
+        // 資策會 (III)
+        "researchInstitute_title": "財團法人資訊工業策進會 (資策會)",
+        "researchInstitute_short": "資策會兼任助理",
+        "researchInstitute_full_title": "財團法人資訊工業策進會 (資策會)",
+        "assistant": "兼任助理",
+        "assistantWork": "負責偵測模型運算需量 (GFLOPS) 研究分析報告，協助評估與最佳化計算需求。",
+
+        // 大學程式能力檢定(CPE)
+        "cpe_title": "大學程式能力檢定(CPE)",
+        "cpe_short": "CPE 程式能力測驗",
+        "cpe_full_title": "大學程式能力檢定(CPE)",
+        "cpeExam": "程式能力測驗",
+        "cpeResult": "參與CPE並獲得三題成績(524/2811)全國前18.6%。",
+
+        // ITSA 程式能力線上自我評量
+        "itsa_title": "ITSA 程式能力線上自我評量",
+        "itsa_short": "ITSA 程式能力測驗",
+        "itsa_full_title": "ITSA 程式能力線上自我評量",
+        "itsaExam": "程式能力測驗",
         "itsaResult": "在 ITSA 程式能力線上評測中完成 6/7 題，展現高效的程式解決能力。",
+
+        "expandMore": "展開更多",
+
+
+
+        "project_colon_diagnosis_title": "Weakly Supervised Learning for Colon Diagnosis on Whole-Slide Imaging",
+        "project_colon_diagnosis_desc": "利用弱監督學習技術，高效診斷結腸癌病理影像。",
+        "project_colon_diagnosis_detail1": "開發基於多重實例學習 (MIL) 的模型，用於全玻片影像分析。",
+        "project_colon_diagnosis_detail2": "解決了大規模影像數據和有限像素級註釋的挑戰。",
+        "project_colon_diagnosis_detail3": "僅利用玻片級標籤，實現了高精度診斷，降低了註釋負擔。",
+
+        "project_breast_cancer_quantification_title": "基於非監督式學習針對乳癌全玻片病理影像中腫瘤與間質比例之自動量化方法",
+        "project_breast_cancer_quantification_desc": "利用非監督式學習自動量化乳癌全玻片影像中的腫瘤與間質比例。",
+        "project_breast_cancer_quantification_detail1": "將非監督式聚類與分割技術應用於病理影像。",
+        "project_breast_cancer_quantification_detail2": "提供了腫瘤與間質組織成分的自動化量化方法。",
+        "project_breast_cancer_quantification_detail3": "在無需手動註釋的情況下，輔助病理評估與研究。",
+
+        "project_paddy_weed_segmentation_title": "Deep Learning-Based Semantic Segmentation of Paddy Field Weeds",
+        "project_paddy_weed_segmentation_desc": "運用深度學習進行水稻田雜草語義分割，提升智慧農業。",
+        "project_paddy_weed_segmentation_detail1": "比較了多種深度學習模型（例如 U-Net, DeepLab）用於雜草檢測。",
+        "project_paddy_weed_segmentation_detail2": "評估了模型在不同水稻田數據集上的性能。",
+        "project_paddy_weed_segmentation_detail3": "探討了在智慧農業中，自動化除草與作物管理的應用潛力。",
+
+        "project_transparent_breast_diagnosis_title": "Transparent Breast Cancer Diagnosis through Causality, Explainability, and Visualization",
+        "project_transparent_breast_diagnosis_desc": "透過因果關係、可解釋性與視覺化，實現透明化乳癌診斷。",
+        "project_transparent_breast_diagnosis_detail1": "整合可解釋性人工智慧 (XAI) 技術（例如 Grad-CAM, LIME），以理解模型決策。",
+        "project_transparent_breast_diagnosis_detail2": "探討病理特徵與診斷結果之間的因果關係。",
+        "project_transparent_breast_diagnosis_detail3": "提供視覺化解釋和因果洞察，以輔助臨床決策。",
+
+        "project_steel_defect_detection_title": "影像處理應用於智慧製造中的鋼材缺陷檢測",
+        "project_steel_defect_detection_desc": "在智慧製造中應用影像處理技術進行鋼材缺陷檢測。",
+        "project_steel_defect_detection_detail1": "開發了穩健的影像處理管線，用於表面缺陷識別。",
+        "project_steel_defect_detection_detail2": "實施異常檢測演算法，實現自動化品質控制。",
+        "project_steel_defect_detection_detail3": "提升了工業環境中品質檢測的效率和準確性。",
+
+        "accomplishments": "專案亮點", // 確保這個鍵存在
+
+
 
         "educationHistory": "就學經歷",
         "nttu": "國立臺東大學",
@@ -308,7 +493,11 @@ const translations = {
 
         "hobbiesAndExpertise": "興趣與專長",
         "personalHobbies": "個人興趣",
-        "hobby_gaming": "玩遊戲，以手遊為主，以下是有認真在玩的遊戲:",
+        "hobby_gaming_intro": "玩遊戲，以手遊為主，以下是有認真在玩的遊戲:",
+        "aov": "傳說對決Arena of Valor(戰場傳說 | S)", 
+        "wildrift": "激鬥峽谷League of Legends: Wild Rift(大師III | Master III)", 
+        "kartrider": "跑跑卡丁車KartRider Rush+(王者車手III | Genius III)",
+        "gta5": "最近在玩Grand Theft Auto V (GTA V) 的故事模式(Story Mode)", 
         "hobby_netflix": "看Netflix，以下是我喜歡的:",
         "hobby_netflix_anime": "動漫 : 葬送的芙利蓮，紫羅蘭的永恆花園，奇諾之旅",
         "hobby_netflix_koreandrama": "韓劇 : 信號，愛在大都會，屍戰朝鮮",
@@ -445,6 +634,8 @@ const translations = {
 
         "enterNewPassword": "請輸入新密碼",
         "confirmNewPassword": "請確認新密碼"
+
+
 
 
 
